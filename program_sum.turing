@@ -1,0 +1,13 @@
+#Cur.state	Tape sym.	Final state	Print oper-n	Tape-motion
+#Tape-motion can have values: 'L' for one step left or 'R' for one step right or 'N' for staying in the same place
+#An example program for summing up two numbers is provided below: 
+1	*	1	*	R
+1	,	2	*	R
+1	~	4	~	N
+2	*	2	*	R
+2	,	4	~	N
+2	~	3	~	L
+3	*	3	~	N
+4	~	4	~	N
+
+
